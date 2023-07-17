@@ -1,12 +1,12 @@
 import React from 'react';
 
-function webpage() {
+function App() {
   return (
-  <div>
-    <h1>hello world</h1>
-    <h2>Hai bala</h2>
-  </div>
+    <div className="App">
+      <h1>Hello World!</h1>
+    </div>
   );
-};
+}
 
-export default webpage;
+export default App;
+
